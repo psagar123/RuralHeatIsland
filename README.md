@@ -5,3 +5,4 @@ The WRF output files required to run the provided scripts (irrigation-on simulat
 1. [1km_aug_sensor_select_new_irr.nc](https://drive.google.com/file/d/1xnYuxFNPRvEQkp4JeOL3aOCQCp73pWoP/view?usp=drive_link)
 2. [1km_aug_sensor_select_new_rh2m_irr.nc](https://drive.google.com/file/d/1riYnIdm7eBlta5JqriRJ5ozgyujRLCnf/view?usp=drive_link)
 
+## This repository also contains example scripts used to calculate heat-related rest break requirements for farmworkers in California as described in a follow-up paper titled "Translating Earth science data into policy – How often do farmworkers need heat-related rest breaks?"
