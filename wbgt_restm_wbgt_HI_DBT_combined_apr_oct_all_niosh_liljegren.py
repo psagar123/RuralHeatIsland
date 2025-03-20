@@ -1,3 +1,5 @@
+# This script corresponds to Fig. 5 in the paper "Translating Earth science data into policy – How often do farmworkers need heat-related rest breaks?"
+# This script reads WRF output files, extracts variables to calculate WBGT and performs calculation of rest minutes as per NIOSH criteria. 
 
 # import general packages
 import xarray as xr
@@ -124,11 +126,6 @@ from matplotlib.ticker import MultipleLocator
 # Load the county and lake shapefiles
 counties = gpd.read_file("ne_10m_admin_1_states_provinces/ne_10m_admin_1_states_provinces.shp")
 salton = gpd.read_file("Salton_geog/Salton_geog.shp")
-
-
-
-
-
 
 # extract data corresponding to workshifts for WBGT
 
